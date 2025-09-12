@@ -1,0 +1,8 @@
+📖 Chatbot Usage Guide (AI-assisted)
+
+1. Start the chatbot by running: python chatbot.py
+2. Type a message, e.g., "hello" or "what is your name".
+3. The chatbot checks if your input matches its predefined responses.
+4. If a match is found, it replies with the stored answer.
+5. If your input is unknown, it replies with: "Sorry, I don’t understand that."
+6. To exit, type "bye" and the chatbot will say goodbye.

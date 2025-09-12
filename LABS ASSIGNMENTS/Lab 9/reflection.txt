@@ -1,0 +1,17 @@
+Reflection – Automated vs Manual Documentation
+
+Automated documentation helps keep the project consistent with the codebase.
+It ensures that developers do not need to manually rewrite usage guides or
+API references every time code changes. This saves time and reduces errors.
+
+In real-world projects, automated documentation:
+- Improves maintainability.
+- Ensures that documentation stays up-to-date.
+- Helps new developers onboard quickly.
+- Reduces duplication of effort.
+
+Manual documentation, however, is still important for context, design decisions,
+and explanations that automated tools cannot capture.
+
+Best practice: Use both automated tools (for code and API docs) and manual
+notes (for context and design) together.
