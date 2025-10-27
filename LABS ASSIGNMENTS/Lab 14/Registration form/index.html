@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SR University Tech Fest Registration</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>SR University Tech Fest 2025</h1>
+    <p>Register now to participate in exciting tech events!</p>
+
+    <form id="registrationForm" novalidate>
+      <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" placeholder="Enter your full name" required />
+        <small class="error"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" placeholder="Enter your email" required />
+        <small class="error"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" placeholder="Enter 10-digit number" required />
+        <small class="error"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="dept">Department:</label>
+        <select id="dept" required>
+          <option value="">Select your department</option>
+          <option value="CSE">Computer Science</option>
+          <option value="ECE">Electronics & Communication</option>
+          <option value="EEE">Electrical & Electronics</option>
+          <option value="ME">Mechanical</option>
+          <option value="CE">Civil</option>
+        </select>
+        <small class="error"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="event">Event Selection:</label>
+        <select id="event" required>
+          <option value="">Select event</option>
+          <option value="Hackathon">Hackathon</option>
+          <option value="Coding">Coding Challenge</option>
+          <option value="Robotics">Robotics</option>
+          <option value="Quiz">Tech Quiz</option>
+        </select>
+        <small class="error"></small>
+      </div>
+
+      <button type="submit">Register</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

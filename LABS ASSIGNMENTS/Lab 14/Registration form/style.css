@@ -1,0 +1,91 @@
+/* ---------- GENERAL STYLES ---------- */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  /* ---------- CONTAINER ---------- */
+  .container {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 40px 50px;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    max-width: 420px;
+    width: 100%;
+    text-align: center;
+    backdrop-filter: blur(8px);
+  }
+  
+  h1 {
+    color: #00c6ff;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #ddd;
+    margin-bottom: 25px;
+  }
+  
+  /* ---------- FORM FIELDS ---------- */
+  .form-group {
+    margin-bottom: 18px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #fff;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px 14px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    transition: border-color 0.3s ease, background 0.3s ease;
+  }
+  
+  input:focus, select:focus {
+    border-color: #00c6ff;
+    background: rgba(255,255,255,0.15);
+  }
+  
+  .error {
+    display: block;
+    color: #ff7675;
+    font-size: 0.85rem;
+    margin-top: 5px;
+    height: 14px;
+  }
+  
+  /* ---------- BUTTON ---------- */
+  button {
+    background: #00c6ff;
+    color: #111;
+    border: none;
+    padding: 12px 30px;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background: #00a2d3;
+    transform: translateY(-2px);
+  }
+  

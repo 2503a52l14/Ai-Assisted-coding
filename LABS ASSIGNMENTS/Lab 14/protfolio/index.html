@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Student Portfolio — Your Name</title>
+  <meta name="description" content="Personal portfolio: projects, skills, contact." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Header / nav -->
+    <header>
+      <div class="brand">
+        <div class="logo">V</div>
+        <div>
+          <div style="font-weight:700">VISHWAS</div>
+          <small style="color:var(--muted)">Frontend • ML hobbyist • Problem Solver</small>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact" class="cta">Hire me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero / Intro -->
+    <section id="home" class="hero">
+      <div class="hero-left">
+        <h1>Hi — I'm VISHWAS.</h1>
+        <p>I build small tools and projects that help people learn and automate. I love clean UI, tiny performant code, and shipping things.</p>
+        <div class="skills-inline">
+          <div class="chip">HTML</div><div class="chip">CSS</div><div class="chip">JavaScript</div>
+          <div class="chip">React</div><div class="chip">Python</div><div class="chip">Data Viz</div>
+        </div>
+      </div>
+
+      <aside class="profile-card">
+        <div class="avatar">🙂</div>
+        <div style="text-align:center">
+          <div style="font-weight:700">ALEX</div>
+          <small>Student • Developer</small>
+        </div>
+        <div class="profile-links">
+          <a class="chip" href="#projects">See projects</a>
+          <a class="chip" href="#contact">Contact</a>
+        </div>
+      </aside>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <h2>About</h2>
+      <p>I’m a student learning web development and data science. I build small apps to practice and to solve daily problems — from simple automations to small full-stack demos. I enjoy clear UX and efficient code.</p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects-section">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="meta">
+            <div class="title">Expense Tracker</div>
+            <div class="project-time">2025</div>
+          </div>
+          <div class="desc">A tiny web app to record and visualize personal expenses. LocalStorage + Chart.js for charts.</div>
+          <div class="project-tags">
+            <span class="project-tag">HTML</span>
+            <span class="project-tag">JavaScript</span>
+            <span class="project-tag">Chart.js</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="meta">
+            <div class="title">Flash Learn</div>
+            <div class="project-time">2024</div>
+          </div>
+          <div class="desc">A flashcard app to help memorization with spaced repetition algorithm (basic).</div>
+          <div class="project-tags">
+            <span class="project-tag">React</span>
+            <span class="project-tag">LocalStorage</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="meta">
+            <div class="title">Train Delay Notifier</div>
+            <div class="project-time">2025</div>
+          </div>
+          <div class="desc">A small script that scrapes schedule pages and sends daily notifications (learned about scraping and scheduling).</div>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">Scraping</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact">
+        <div>
+          <p>Feel free to reach out — link to your email, LinkedIn or other profiles.</p>
+          <ul>
+            <li>Email: <a href="mailto:you@example.com">you@example.com</a></li>
+            <li>LinkedIn: <a href="#">linkedin.com/in/your</a></li>
+            <li>GitHub: <a href="#">github.com/your</a></li>
+          </ul>
+        </div>
+
+        <form onsubmit="handleSubmit(event)">
+          <input required type="text" name="name" placeholder="Your name" />
+          <input required type="email" name="email" placeholder="Email" />
+          <textarea required name="message" placeholder="Message" rows="4"></textarea>
+          <div class="form-buttons">
+            <button type="reset">Reset</button>
+            <button class="btn-primary" type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      Built with ❤️ • Your Name • © <span id="year"></span>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
