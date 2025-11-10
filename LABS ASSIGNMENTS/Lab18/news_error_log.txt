@@ -1,0 +1,2 @@
+2025-11-10 10:28:48,930 - ERROR - Request failed: 402 Client Error: Payment Required for url: https://inshortsapi.vercel.app/news?category=technology
+2025-11-10 10:29:50,780 - ERROR - Request failed: 401 Client Error: Unauthorized for url: https://gnews.io/api/v4/top-headlines?topic=technology&lang=en&max=5&apikey=1f6f7a6c4b4c2b28b7b6e2e0e4e1b5b8

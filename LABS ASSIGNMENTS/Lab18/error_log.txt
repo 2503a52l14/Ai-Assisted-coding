@@ -1,0 +1,12 @@
+2025-11-10 10:18:15,385 - ERROR - Attempt 1: Failed to fetch exchange rate - Invalid response from API.
+2025-11-10 10:18:17,738 - ERROR - Attempt 2: Failed to fetch exchange rate - Invalid response from API.
+2025-11-10 10:18:20,516 - ERROR - Attempt 3: Failed to fetch exchange rate - Invalid response from API.
+2025-11-10 10:18:54,605 - ERROR - Attempt 1: Failed to fetch exchange rate - Invalid response from API.
+2025-11-10 10:18:57,373 - ERROR - Attempt 2: Failed to fetch exchange rate - Invalid response from API.
+2025-11-10 10:19:00,137 - ERROR - Attempt 3: Failed to fetch exchange rate - Invalid response from API.
+2025-11-10 10:21:05,366 - ERROR - Attempt 1: Failed - Invalid response from API.
+2025-11-10 10:21:07,721 - ERROR - Attempt 2: Failed - Invalid response from API.
+2025-11-10 10:21:10,490 - ERROR - Attempt 3: Failed - Invalid response from API.
+2025-11-10 10:34:49,826 - ERROR - Attempt 1: Failed - Invalid currency code or missing rate data.
+2025-11-10 10:34:51,901 - ERROR - Attempt 2: Failed - Invalid currency code or missing rate data.
+2025-11-10 10:34:53,966 - ERROR - Attempt 3: Failed - Invalid currency code or missing rate data.
